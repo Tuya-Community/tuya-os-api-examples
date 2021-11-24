@@ -1,24 +1,24 @@
-# tuya-os-api-examples
+# TuyaOS API Examples
 
-[English](./README.md) | [中文](./README_zh.md) 
+[English](./README.md) | [中文](./README_zh.md)
 
 ## What is it?
 
-Here is some examples of how to use RTOS in Tuya OS, please [click to view]() for details.
+This repository provides samples of how to use the RTOS. For more information, [click here]().
 
-## How to use these examples?
+## How to use them?
 
-1. First, you need to install the relevant development environment. [Click to view](https://developer.tuya.com/cn/docs/iot/SoC-redevelopment_Windows?id=Kauqrxxka0wv6) how to develop environment build.
+1. Set up the development environment. For more information, see [this documentation](https://developer.tuya.com/en/docs/iot/SoC-redevelopment_Windows?id=Kauqrxxka0wv6).
 
-2. Refer to the following motion picture to compile the example.
+2. See the following tutorial and build your project.
 
-![tuya_os_examples_gif](https://images.tuyacn.com/smart/shiliu_zone/tuya_os_examples/tuya_os_examples_gif.gif)
+    ![tuya_os_examples_gif](https://images.tuyacn.com/smart/shiliu_zone/tuya_os_examples/tuya_os_examples_gif.gif)
 
-## Technical Support
 
-You can get support for Tuya by using the following methods:
+## Technical support
 
-- Developer Center: https://developer.tuya.com
-- Help Center: https://support.tuya.com/help
-- Technical Support Work Order Center: https://service.console.tuya.com
+You can get support from Tuya with the following methods:
 
++ [Tuya Developer Platform](https://developer.tuya.com/en/)
++ [Help Center](https://support.tuya.com/en/help)
++ [Service & Support](https://service.console.tuya.com)
