@@ -73,8 +73,8 @@ void mutex_task_2_handle(void)
 void mutex_task_init(void)
 {
     tuya_hal_mutex_create_init(&my_mutex);
-    tuya_hal_thread_create(NULL, "task 1", 64*8, TRD_PRIO_5, mutex_task_1_handle, NULL);
-    tuya_hal_thread_create(NULL, "task 2", 64*8, TRD_PRIO_5, mutex_task_2_handle, NULL);
+    tuya_hal_thread_create(NULL, "task_1", 1024, TRD_PRIO_5, mutex_task_1_handle, NULL);
+    tuya_hal_thread_create(NULL, "task_2", 1024, TRD_PRIO_5, mutex_task_2_handle, NULL);
 }
 
 /**
