@@ -54,8 +54,8 @@ void sem_release_task_handle(void)
 */
 void sem_task_init(void)
 {
-    tuya_hal_thread_create(NULL, "sem release", 64*8, TRD_PRIO_5, sem_release_task_handle, NULL);
-    tuya_hal_thread_create(NULL, "sem wait", 64*8, TRD_PRIO_5, sem_wait_task_handle, NULL);
+    tuya_hal_thread_create(NULL, "sem_release", 1024, TRD_PRIO_5, sem_release_task_handle, NULL);
+    tuya_hal_thread_create(NULL, "sem_wait", 1024, TRD_PRIO_5, sem_wait_task_handle, NULL);
 }
 
 /**
