@@ -55,7 +55,7 @@ void thread_demo_init(void)
 {
     OPERATE_RET op_ret = OPRT_OK;
 
-    op_ret = tuya_hal_thread_create(&thread_demo_handle, "thread demo", 64*8, TRD_PRIO_4, thread_demo_task_func, NULL);
+    op_ret = tuya_hal_thread_create(&thread_demo_handle, "thread_demo", 1024, TRD_PRIO_4, thread_demo_task_func, NULL);
     if (op_ret != OPRT_OK) {
         PR_ERR("creat thread demo task failed, err_num:%d", op_ret);
         return;
